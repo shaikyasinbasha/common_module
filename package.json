@@ -1,0 +1,19 @@
+{
+  "name": "common_module",
+  "version": "1.0.0",
+  "description": "shared model across the projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaikyasinbasha/common_module.git"
+  },
+  "author": "Yasin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaikyasinbasha/common_module/issues"
+  },
+  "homepage": "https://github.com/shaikyasinbasha/common_module#readme"
+}
