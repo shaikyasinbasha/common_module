@@ -1,3 +1,7 @@
-const platformData = require('./platformData');
+const auth = require('./platformData');
+const services = require('./platformApi');
 
-module.exports = platformData;
+module.exports = {
+    auth,
+    ...services
+};
