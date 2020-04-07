@@ -3,7 +3,8 @@ const createPatformData = () => {
 }
 
 const auth = () => {
-    console.log('------------createPatformData------------');
+    console.log('------------auth------------');
+	createPatformData();
 }
 
 module.exports = auth
