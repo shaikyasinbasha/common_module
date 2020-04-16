@@ -1,10 +1,15 @@
+import Axios from "axios";
+
 const createPatformData = () => {
     console.log('------------createPatformData------------');
 }
 
 const auth = () => {
     console.log('------------auth------------');
-	createPatformData();
+  createPatformData();
+  Axios.get("http://api.plos.org/search?q=title:DNA").then(resp => {
+    console.log("---------Axios-----------");
+  })
 }
 
 module.exports = auth

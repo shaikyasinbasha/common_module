@@ -1,6 +1,6 @@
 {
   "name": "common_module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "shared model across the projects",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/shaikyasinbasha/common_module/issues"
   },
-  "homepage": "https://github.com/shaikyasinbasha/common_module#readme"
+  "homepage": "https://github.com/shaikyasinbasha/common_module#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
 }
