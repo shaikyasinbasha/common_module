@@ -1,4 +1,5 @@
-import Axios from "axios";
+//import Axios from "axios";
+const Axios = require('axios');
 
 const createPatformData = () => {
     console.log('------------createPatformData------------');
