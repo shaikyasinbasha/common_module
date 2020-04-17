@@ -1,16 +1,20 @@
 //import Axios from "axios";
 const Axios = require('axios');
 
-const createPatformData = () => {
-    console.log('------------createPatformData------------');
+const createPatformData = async () => {
+    console.log('------------createPatformData before await------------');
+    const res = await Axios.get("http://api.plos.org/search?q=title:DNA").then(resp => {
+      console.log("---------Axios-----------");
+      return resp;
+    });
+    console.log('------------createPatformData after await------------');
+    return res;
 }
 
 const auth = () => {
-    console.log('------------auth------------');
+  console.log('------------before auth------------');
   createPatformData();
-  Axios.get("http://api.plos.org/search?q=title:DNA").then(resp => {
-    console.log("---------Axios-----------", resp);
-  })
+  console.log('------------after auth------------');
 }
 
 module.exports = auth
