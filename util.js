@@ -5,4 +5,5 @@ console.log("SUPER -- Conflicts")
 
 console.log("Git Pull Reqesst");
 
-console.log("confilcts - PR")
+console.log("Git pull conflicts from brancha 2");
+console.log("confilcts - PR");
